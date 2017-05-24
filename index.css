@@ -1,0 +1,558 @@
+html, body {
+    
+    font-family: sans-serif;
+    color: #000;
+    height: 100%;
+}
+
+body{
+    position: relative;
+}
+
+h4 {
+    
+    
+    padding: 0px;
+    margin: 0px;
+    border: 0;
+}
+
+h5 {
+    
+    
+    padding: 0px;
+    margin: 0px;
+    border: 0;
+    font-weight: 100;
+    font-size: 16px;
+    font-style: italic;
+    color: #A9A9A9;
+}
+
+.bannerimage {
+   
+    
+    width: 100%;
+    height: auto;
+}
+
+.synopsis {
+    
+    font-size: 14px;
+    width: 100%;
+}
+
+a.navLink:link, a.navLink:visited, a.navLink:hover{
+    
+    text-decoration: none;
+    color: #FFF;
+}
+
+a:link, a:visited, a:hover{
+    
+    text-decoration: none;
+    color: #A9A9A9;
+    
+}
+
+a:active{
+    color: #FF3B3F;
+}
+
+a.footer:link, a.footer:visited, a.footer:hover{
+    
+    text-decoration: none;
+    color: #FF3B3F;
+}
+
+
+
+nav {
+    
+    
+    width: 100%;
+    background-color: #A9A9A9;
+    
+    
+    
+}
+
+
+
+nav {
+    
+    color: #EFEFEF;
+    
+}
+
+nav a{
+    
+    color: #EFEFEF;
+}
+
+
+
+
+ul {
+    
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li{
+    
+    float: left;
+}
+
+nav li.right{
+    
+    float: right;
+}
+
+nav li a{
+    
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+nav li a:hover{
+    
+    background-color: #FF3B3F;
+}
+
+aside {
+    padding: 1%;
+    float: left;
+    width: 18%;
+    background-color: #CAEBF2;
+    margin: .5% 0% 0% 0%;
+    opacity: .7;
+    border-radius: 0px 0px 15px 15px;
+    height: 300px;
+    padding-top: 50px;
+    background: -moz-linear-gradient(90deg, rgba(140,192,207,1) 0%, rgba(202,235,242,1) 50%, rgba(202,235,242,1) 100%); /* ff3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(202,235,242,1)), color-stop(50%, rgba(202,235,242,1)), color-stop(100%, rgba(140,192,207,1))); /* safari4+,chrome */
+background: -webkit-linear-gradient(90deg, rgba(140,192,207,1) 0%, rgba(202,235,242,1) 50%, rgba(202,235,242,1) 100%); /* safari5.1+,chrome10+ */
+background: -o-linear-gradient(90deg, rgba(140,192,207,1) 0%, rgba(202,235,242,1) 50%, rgba(202,235,242,1) 100%); /* opera 11.10+ */
+background: -ms-linear-gradient(90deg, rgba(140,192,207,1) 0%, rgba(202,235,242,1) 50%, rgba(202,235,242,1) 100%); /* ie10+ */
+background: linear-gradient(0deg, rgba(140,192,207,1) 0%, rgba(202,235,242,1) 50%, rgba(202,235,242,1) 100%); /* w3c */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#CAEBF2', endColorstr='#8CC0CF',GradientType=0 ); /* ie6-9 */
+    
+}
+
+.searchbox {
+    width: 100%;
+}
+
+
+
+main {
+    float: left;
+    margin: 1% 0% 0% 1%;
+    width: 75%;
+    background-color: #fff;
+    padding: 2%;
+    min-height: 80%;
+    overflow: visible;
+}
+
+.filter{
+    
+    width: 100%;
+    margin: 10px 0px;
+}
+
+
+
+
+table {
+    border-collapse: collapse;
+}
+
+td{
+    background: #CAEBF2;
+    border-bottom: 5px solid #fff;
+    border-collapse: collapse;
+    border-top: 0px;
+    padding: 5px 10px;
+    text-align: right;
+    vertical-align: top;
+    
+}
+
+td.coverImage{
+    
+    border-right: 10px solid #fff;
+    border-collapse: collapse;
+    border-top: 0px;
+    background-color: #FFF;
+    height: 150px;
+    width: 85px;
+    color: #EFEFEF;
+    text-align: center;
+    font-weight: bold;
+    padding: 0px;
+}
+
+
+
+
+td.coverImage, td.description {
+    
+    border-bottom: 5px solid #fff;
+    border-collapse: collapse;
+    border-top: 0px;
+    vertical-align: top;
+    
+    
+}
+
+td.description {
+    background-color: #FFF;
+    text-align: left;
+}
+
+.book {
+    width: 98%;
+    float: left;
+    margin: 0px 1%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+input[type="text"], input[type="number"], input[type="password"], input[type="tel"]{
+                
+    padding: 4px;
+    margin: 8px 0px;
+    box-sizing: border-box;
+    color: #000;
+    font-size:17px;
+}
+
+input[type="date"] {
+    padding: 4px;
+    margin: 6px 0px;
+    box-sizing: border-box;
+    font-size:17px;
+}
+
+label {
+     color: #A9A9A9;
+    font-size:16px;
+}
+
+
+
+
+
+.clear {
+    width: 120px;
+    float: right;
+    margin-right: 10px;
+    background-color: #CAEBF2;
+    color: #fff;
+}
+
+.submit{
+    width:120px;
+    float: right;
+    background-color: #FF3B3F;
+    color: #fff;
+    margin-right: 5px;
+}
+
+input[type="submit"] {
+    padding: 0;
+    border: 0;
+    border-style: none;
+    
+}
+
+input[type="submit"]:hover, input[type="button"]:hover {
+    cursor: pointer;
+    
+}
+
+input[type="submit"].submit:hover{
+    background-color: darkcyan;
+}
+
+input[type="button"].clear:hover{
+    background-color: #FF3B3F;
+}
+
+input[type="button"].clear:active{
+    background-color: #CAEBF2;
+}
+
+input[type="button"], input[type="submit"]{
+
+    padding: 8px 0px 6px 0px;
+    
+    color: #fff;
+    border-style: none;
+    border: 0px;
+}
+
+select{
+    padding: 4px;
+    margin: 8px 0px;
+    box-sizing: border-box;
+    color: black;
+    font-size:16px;
+ 
+    
+}
+
+.title {
+    text-align: left;
+}
+
+.price, .addButton {
+    background-color: #fff;
+    vertical-align: middle;
+    padding: 5px 0px 5px 0px;
+    margin-right: 10px;
+}
+
+.price{
+    padding-right: 10px;
+}
+
+.add {
+    width: 100%;
+    
+    
+}
+
+.add, .searchButton {
+    background-color: #FF3B3F;
+    font-size: 13pt;
+}
+
+.addButton {
+    
+    margin 0px;
+    width: 100px;
+}
+
+.edit{
+    background-color: #007c91;
+    width: 90%;
+    float: left;
+   
+}
+
+.delete{
+    width: 90%;
+    float: left;
+}
+
+img.bookCover {
+    
+    height: 150px;
+    width: 100px;
+}
+
+.date {
+    
+    text-align: left;
+}
+
+#registrationForm {
+    width: 715px;;
+    margin: 0  auto;
+    margin-top: 20px;
+    padding: 20px;
+    padding-bottom: 40px;
+    background-color: #EFEFEF;
+    
+}
+
+
+#updateForm {
+    width: 715px;;
+    margin: 0  auto;
+    margin-top: 20px;
+    padding: 20px;
+    padding-bottom: 40px;
+    background-color: #EFEFEF;
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+
+#loginForm {
+    width: 360px;;
+    margin: 0  auto;
+    margin-top: 20px;
+    padding: 20px;
+    padding-bottom: 40px;
+    background-color: #EFEFEF;
+    
+}
+
+.bookListing{
+    width: 100%;
+}
+
+.long {
+    width: 715px;
+}
+
+.short {
+    width: 110px;
+}
+
+.medium {
+    
+    width: 297px;
+}
+
+.medium-long {
+    
+    width: 355px;
+}
+
+
+
+input:focus {
+    
+    background-color: #ffffff;
+    border-color: #64d9f2;
+}
+
+
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #A9A9A9;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #A9A9A9;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #A9A9A9;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #A9A9A9;
+}
+
+.empty {
+    color: #A9A9A9;
+}
+
+.orderDetail {
+    width: 100%;
+}
+
+.total {
+    text-align: right;
+}
+
+.right {
+    
+    text-align: right;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.order{
+    width:120px;
+    float: right;
+    background-color: #FF3B3F;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.ok {
+    border-color: green;
+}
+
+.error {
+    border-color: red;
+}
+
+footer {
+    
+    padding: 0.5px;
+  background-color: #caebf2;
+  text-align: center;
+   
+    vertical-align: middle;
+}
+
+div#wrapper{
+    background-color: #ffffff;
+    min-height: 100%;
+    overflow: hidden;
+}
+
+div.pagination {
+    font-family: "Lucida Sans", Geneva, Verdana, sans-serif;
+    padding:20px;
+    margin:7px;
+}
+div.pagination a {
+    margin: 2px;
+    padding: 0.5em 0.64em 0.43em 0.64em;
+    background-color: #FF3B3F;
+    text-decoration: none;
+    color: #fff;
+}
+div.pagination a:hover, div.pagination a:active {
+    padding: 0.5em 0.64em 0.43em 0.64em;
+    margin: 2px;
+    background-color: #CAEBF2;
+    color: #fff;
+}
+
+
+.new{
+    width: 32%;
+    font-size: 20px;
+    background-color: darkcyan;
+    float: left;
+    
+    text-align: center;
+    
+}
+
+.btn{
+    font-size: 14pt;
+}
+
+.right{
+    margin-left: 2%;
+}
+
+.left{
+    margin-right: 2%;
+}
+
+.checkbox{
+    width: 33.33%;
+    float: left;
+}
+
+input[type=button]:disabled{
+    background-color: #A9A9A9;
+    width:100%;
+    cursor: default;
+}
+
+.thumbImage{
+    width: 140px;
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    align-content: left;
+}
+
+.clearfix{
+    clear: both;
+}
